@@ -1,0 +1,8 @@
+哪些國家的看過|[html]
+&lt;a href=&quot;http://flagcounter.com/more/Nslc&quot;&gt;&lt;img src=&quot;http://flagcounter.com/count/Nslc/bg=FFFFFF/txt=000000/border=CC4975/columns=2/maxflags=10/viewers=0/labels=1/&quot; alt=&quot;free counters&quot; border=&quot;0&quot;&gt;&lt;/a&gt;
+[/html]|G+|[html]
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;
+  {lang: &#039;zh-TW&#039;}
+&lt;/script&gt;
+[/html]
+[html]&lt;g:plusone&gt;&lt;/g:plusone&gt;[/html]

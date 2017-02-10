@@ -1,0 +1,71 @@
+<?php echo "<html>
+	<head>
+		<title>2016_09</title>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+	</head>
+	<body>
+		<h1 align='center'>2016年09月</h1>
+		<table border='1' width='80%' align='center'>
+			<tr align='center'>
+				<th height='100px'>日</th>
+				<th>一</th>
+				<th>二</th>
+				<th>三</th>
+				<th>四</th>
+				<th>五</th>
+				<th>六</th>
+			</tr>
+			
+			<tr align='center'>
+				<td height='100px'></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			
+			<tr align='center'>
+				<td height='100px'>4</td>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+			</tr>
+			
+			<tr align='center'>
+				<td height='100px'>11</td>
+				<td>12</td>
+				<td>13</td>
+				<td>14</td>
+				<td>15</td>
+				<td>16</td>
+				<td>17</td>
+			</tr>
+			
+			<tr align='center'>
+				<td height='100px'>18</td>
+				<td>19</td>
+				<td>20</td>
+				<td>21</td>
+				<td>22</td>
+				<td>23</td>
+				<td>24</td>
+			</tr>
+			
+			<tr align='center'>
+				<td height='100px'>25</td>
+				<td>26</td>
+				<td>27</td>
+				<td>28</td>
+				<td>29</td>
+				<td>30</td>
+				<td></td>
+			</tr>
+		
+		</table>
+	</body>
+</html>"; ?>

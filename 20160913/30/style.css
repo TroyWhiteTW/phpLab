@@ -1,0 +1,35 @@
+.tableSize {
+	width:726;
+	height:614;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:24px;
+}
+.title {
+	background-color:#c69fba;
+	font-family:微軟正黑體;
+	font-size:24px;
+}
+.trStyle {
+	background-color:#fae6ff;
+}
+.weekend {
+	background-color:#ffdbdd;
+}
+.noDate {
+	background-color:#f6f2f7;
+}
+th {
+	text-align:center
+}
+td {
+	text-align:center
+}
+.week {
+	font-size:18px;
+}
+.today {
+	background-color:#fff19e;
+	color:red;
+	font-weight:bold;
+}
