@@ -25,14 +25,43 @@ class CalendarController extends Controller {
         } else {
             $cell = 0;
         }
-        Calendar::getCalendar();
+        // 該月日期陣列
+        for ($i = 1; $i <= $cell; $i++) {
+            $iDays[] = $i - $noDate;
+        }
+        // 按鈕參數
+        $iYear_p = $y - 1;
+        $iYear_n = $y + 1;
+        $iMon_p = $m - 1;
+        if ($iMon_p % 12 == 0) {
+            $iMon_p = 12;
+        } else {
+            $iMon_p = ($m - 1) % 12;
+        }
+        $iMon_n = $m + 1;
+        if ($iMon_n % 12 == 0) {
+            $iMon_n = 12;
+        } else {
+            $iMon_n = ($m + 1) % 12;
+        }
+        // 超過12月或1月需要跨年
+        $iYear_2 = $y;
+        if ($m == 12) $iYear_2++;
+        $iYear_1 = $y;
+        if ($m == 1) $iYear_1--;
         return view('calendar/index', [
             'y' => $y,
             'm' => $m,
             'd' => $d,
+            "iDays" => $iDays,
             "monDays" => $monDays,
-            "noDate" => $noDate,
-            "cell" => $cell
+            "holiday" => Calendar::getCalendar(),
+            "iYear_p"=>$iYear_p,
+            "iYear_n"=>$iYear_n,
+            "iYear_2"=>$iYear_2,
+            "iYear_1"=>$iYear_1,
+            "iMon_p"=>$iMon_p,
+            "iMon_n"=>$iMon_n
         ]);
     }
 }
